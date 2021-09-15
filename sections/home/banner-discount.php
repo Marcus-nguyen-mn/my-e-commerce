@@ -15,8 +15,7 @@
 
                                     <a href="<?php echo get_field("link_banner_disount"); ?>"
                                        class="btn btn-lg btn-green icon-space-left"><span
-                                            class="d-flex align-items-center">Shop Now <i
-                                                class="ion-ios-arrow-thin-right"></i></span></a>
+                                            class="d-flex align-items-center">Shop Now &nbsp; <i class="fas fa-arrow-right"></i></span></a>
                                 </div>
                             </div>
                         </div>

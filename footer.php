@@ -11,10 +11,10 @@
                              data-aos-delay="0">
                             <h5 class="title">INFORMATION</h5>
                             <ul class="footer-nav">
-                                <li><a href="">Delivery Information</a></li>
-                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
                                 <li><a href="#">Contact</a></li>
-                                <li><a href="">Returns</a></li>
+                                <li><a href="#">Returns</a></li>
                             </ul>
                         </div>
                     </div>
@@ -36,11 +36,11 @@
                              data-aos-delay="400">
                             <h5 class="title">CATEGORIES</h5>
                             <ul class="footer-nav">
-                                <li><a href="">Decorative</a></li>
-                                <li><a href="">Kitchen utensils</a></li>
-                                <li><a href="">Chair & Bar stools</a></li>
-                                <li><a href="">Sofas and Armchairs</a></li>
-                                <li><a href="">Interior lighting</a></li>
+                                <li><a href="#">Decorative</a></li>
+                                <li><a href="#">Kitchen utensils</a></li>
+                                <li><a href="#">Chair & Bar stools</a></li>
+                                <li><a href="#">Sofas and Armchairs</a></li>
+                                <li><a href="#">Interior lighting</a></li>
                             </ul>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                                     Prestashop, Opencart.</p>
 
                                 <address>
-                                    <span>Address: Your address goes here.</span>
+                                    <span>Address: Your address goes here.</span><br>
                                     <span>Email: demo@example.com</span>
                                 </address>
                             </div>
@@ -69,10 +69,10 @@
                         <div class="footer-social" data-aos="fade-up" data-aos-delay="0">
                             <h4 class="title">FOLLOW US</h4>
                             <ul class="footer-social-link">
-                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>

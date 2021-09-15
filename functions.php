@@ -11,7 +11,7 @@ $file_includes = [
     'inc/theme-assets.php',                 // Style and JS
     'inc/theme-setup.php',                  // General theme setting
     'inc/acf-options.php',                  // ACF Option page
-    'inc/duplicate.php',              // Dupplicate Post                     
+    'inc/duplicate.php',              // Dupplicate Post
 ];
 foreach ($file_includes as $file) {
     if (!$filePath = locate_template($file)) {
@@ -34,3 +34,18 @@ function mytheme_add_woocommerce_support() {
     add_theme_support( 'woocommerce' );
   }
   add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+
+function get_button_card(){
+  global $product;
+
+  echo apply_filters( 'woocommerce_loop_add_to_cart_link',
+  sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
+  esc_url( $product->add_to_cart_url() ),
+  esc_attr( $product->get_id() ),
+  esc_attr( $product->get_sku() ),
+  $product->is_purchasable() ? 'add_to_cart_button' : '',
+  esc_attr( $product->get_type() ),
+  esc_html( $product->add_to_cart_text() )
+  ),
+  $product );
+}

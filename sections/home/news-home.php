@@ -48,8 +48,7 @@
                                                     <p><?php the_excerpt(); ?></p>
                                                     <div class="inner">
                                                         <a href="blog-single-sidebar-left.html"
-                                                           class="read-more-btn icon-space-left">Read More <span><i
-                                                                    class="ion-ios-arrow-thin-right"></i></span></a>
+                                                           class="read-more-btn icon-space-left">Read More <span>&nbsp; <i class="far fa-arrow-alt-circle-right"></i></span></a>
                                                         <div class="post-meta">
                                                             <a href="" class="date"><?php echo get_the_date('d/m/Y') ?></a>
                                                         </div>

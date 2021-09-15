@@ -14,8 +14,7 @@
                         <p><?php echo get_field("description_banner_section"); ?></p>
                         <a href="<?php echo get_field("link_banner_sections"); ?>"
                            class="btn btn-lg btn-outline-green icon-space-left"><span
-                                class="d-flex align-items-center">Browse <i
-                                    class="ion-ios-arrow-thin-right"></i></span></a>
+                                class="d-flex align-items-center">Browse &nbsp; <i class="fas fa-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
