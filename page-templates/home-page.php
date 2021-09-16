@@ -11,6 +11,7 @@ get_header();
 <?php get_template_part('sections/home/banner-section'); ?>
 <?php get_template_part('sections/home/policy'); ?>
 <?php get_template_part('sections/home/banner-category'); ?>
+<?php get_template_part('sections/home/best-seller'); ?>
 <?php get_template_part('sections/home/banner-discount'); ?>
 <?php get_template_part('sections/home/news-home'); ?>
 
